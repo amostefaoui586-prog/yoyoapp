@@ -1,0 +1,24 @@
+name: yoyo
+description: تطبيق إدارة المهام
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path: ^1.9.0
+
+flutter:
+  uses-material-design: true
+  # لتفعيل خط Cairo أضفه هنا:
+  # fonts:
+  #   - family: Cairo
+  #     fonts:
+  #       - asset: assets/fonts/Cairo-Regular.ttf
+  #       - asset: assets/fonts/Cairo-Bold.ttf
+  #         weight: 700
